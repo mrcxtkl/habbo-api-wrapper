@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #333;
+}
+
+#root {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#friends {
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#badges {
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#groups {
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
